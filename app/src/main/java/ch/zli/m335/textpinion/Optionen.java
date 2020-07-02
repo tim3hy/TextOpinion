@@ -24,8 +24,8 @@ public class Optionen extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentTxtPinion = new Intent(Optionen.this, MainActivity.class);
-                startActivity(intentTxtPinion);
+                Intent intentHome = new Intent(Optionen.this, MainActivity.class);
+                startActivity(intentHome);
             }
         });
     }

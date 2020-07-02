@@ -20,8 +20,8 @@ public class TextPinion extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentTxtPinion = new Intent(TextPinion.this, TextEingabe.class);
-                startActivity(intentTxtPinion);
+                Intent intentTxtEingabe = new Intent(TextPinion.this, TextEingabe.class);
+                startActivity(intentTxtEingabe);
             }
         });
 

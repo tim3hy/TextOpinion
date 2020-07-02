@@ -27,5 +27,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentTxtAnal);
             }
         });
+        buttonOptionen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentOptionen = new Intent(MainActivity.this, Optionen.class);
+                startActivity(intentOptionen);
+            }
+        });
     }
 }
