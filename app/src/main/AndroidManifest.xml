@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TextPinion"></activity>
+        <activity android:name=".Optionen"></activity>
+        <activity android:name=".TextPinion" />
         <activity android:name=".TextEingabe" />
         <activity android:name=".MainActivity">
             <intent-filter>
