@@ -22,6 +22,7 @@ public class TextPinion extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentTxtPinion = new Intent(TextPinion.this, TextEingabe.class);
                 startActivity(intentTxtPinion);
+                //hashdahsdj
             }
         });
 
